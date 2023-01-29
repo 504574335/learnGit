@@ -15,13 +15,17 @@
    - `git checkout -- ...` 撤销工作区的文件修改
    - `git reset HEAD ...` 撤销暂存区的文件修改
 5. 远程仓库
-   - `git remote add/set-rul origin ...` 管理远程仓库
-   - `git push -u origin master` 推送到远程仓库
+   - `git remote add/remove/set-rul origin ...` 管理远程仓库
+   - `git push -u origin main` 推送到远程仓库
+   - `git clone ...` 克隆远程仓库
+6. 分支管理
+   - `git switch -c ...` 创建并转换分支
+   - `git merge ...` 合并分支
+   - `git branch -d ...` 删除分支
 
 
 ## 基本概念
 1. 仓库（版本库）
-2. 工作区与暂存区
+2. 本地仓库：工作区与暂存区
 3. 远程仓库
-4. 分支
-5. 
+4. 分支管理、合并冲突
