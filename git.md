@@ -1,7 +1,27 @@
 # Git学习
-1. `git init` 设置仓库
-2. `git add ...` 添加文件到仓库
-3. `git commit` 提交所有添加的文件
-4. `git status` 查看仓库的状态
-5. `git log` 查看仓库的修改历史
-6. 
+## 常用命令
+1. 初始化
+   - `git init` 设置仓库
+2. 提交/删除文件
+   - `git add ...` 添加文件到仓库
+   - `git rm ...` 从仓库中删除文件
+   - `git commit` 提交暂存区中的修改
+   - `git status` 查看仓库的状态
+3. 查看历史
+   - `git log` 查看提交历史
+   - `git relog` 查看历史命令
+4. 修改版本
+   - `git reset --hard ...` 修改仓库版本
+   - `git checkout -- ...` 撤销工作区的文件修改
+   - `git reset HEAD ...` 撤销暂存区的文件修改
+5. 远程仓库
+   - `git remote add/set-rul origin ...` 管理远程仓库
+   - `git push -u origin master` 推送到远程仓库
+
+
+## 基本概念
+1. 仓库（版本库）
+2. 工作区与暂存区
+3. 远程仓库
+4. 分支
+5. 
